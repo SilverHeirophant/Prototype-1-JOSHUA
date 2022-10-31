@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8796AE75-3B99-EC24-DD68-05BDEC88185B}</ProjectGuid>
+    <ProjectGuid>{FDF70BFC-BA31-0514-DC06-B616E6E7AE18}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,8 +56,11 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Challenge 1/Scripts/PlayerControllerX.cs" />
     <Compile Include="Assets/scripts/Playercontroller.cs" />
+    <Compile Include="Assets/Challenge 1/Scripts/FollowPlayerX.cs" />
     <Compile Include="Assets/scripts/FollowPlayer.cs" />
+    <Compile Include="Assets/scripts/NPCcontroller.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Course Library/_Source_Files/_LICENSE.txt" />
