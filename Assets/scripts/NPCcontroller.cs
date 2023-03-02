@@ -16,6 +16,7 @@ public class NPCcontroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Moves the npcs forward
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
 }
